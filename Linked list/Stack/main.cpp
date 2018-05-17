@@ -16,11 +16,11 @@ Node *push(Node *head, int data)
 	if(head==NULL)
 	{
 		head=temp;
-//		return head;
+		return head;
 	}
 	temp->next=head;
 	head=temp;
-//	return head;
+	return head;
 }
 
 int pop(Node *head)
